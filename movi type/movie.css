@@ -1,0 +1,133 @@
+header{
+	font-family:Georgia;
+	font-size:50px;
+	background-color : rgba(255, 0, 0, 0.4);
+	color : rgb(13,13,13);
+	opacity: 300;
+	}
+
+ article{
+  background-color : rgba(255, 0, 0, 0.4);
+margin-right:22%;
+width:90%;
+}
+ .side{
+  float: right;
+  width: 200px;
+  position: absolute;
+  right: 190px;
+  }
+ 
+   section{
+
+	   color:rgba(255, 0, 0, 0.4);;
+		padding-bottom : 2px;
+}
+nav ul
+{
+		list-style-type:none;
+		display : flex;
+		padding-right: 0px;
+}
+footer 
+{
+	height:3%;
+	background-color:rgb(165,42,42);
+	color : white;
+	font-size: 25px;
+	padding-bottom: 0px;
+
+}
+nav li 
+{
+	margin-right: 15px;
+}
+nav a 
+{
+	text-decoration: none;
+	background-color: orange;
+	color: white;
+}
+a:hover
+{
+	color: pink;
+	background-color : white;
+}
+a:active
+{
+	color: red;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+body
+{
+	background-image: url("novocinema1.JPG");
+}
+ th {background-color: #f5f5f5;}
+th, td {
+  border-bottom: 2px solid black;
+}
+th, td {
+  padding-right: 50px;
+  text-align: left;
+  padding-bottom: 25px;
+  background-color:rgb(165,42,42);
+  color : rgb(13,13,13);
+}
+table{
+	
+	 width: 70%;
+	 font-size: 30px;
+	
+}
+
+h1 {
+	color: white;
+  text-shadow: 0 0 3px #FF0000 0 0 5px #0000FF;
+  font-family:Bookman;
+}
+h3
+{
+	text-align:left;
+	font-size: 30px;
+	color: black;
+	padding-left: 40px;
+	text-align: left;
+}
+.header{
+	border-left : 2.5px solid;
+}
+p
+{
+	font-family: arial;
+	text-align:left;
+	font-size: 20px;
+	color:rgb(255,215,0);
+	padding-left: 35px;
+}
+h2
+{
+	font-family: style-concaveB;
+	font-size: 35px;
+	color : rgb(13,13,13);
+	background-color:rgb(165,42,42);
+}
+button
+{
+	border-left: solid 2px black;
+	border-right: solid 2px black;
+	border-bottom: none;
+	border-top: none;
+}
+a
+{
+	text-decoration: none;
+}
+a:hover
+{
+	background-color : red;
+}
+video
+{
+	margin-left: 450px;
+	
+}

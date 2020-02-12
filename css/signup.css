@@ -1,0 +1,55 @@
+form
+{
+background-image: url(coversighn.png);
+padding:"10px";
+width:350px;
+font-family:"trebuchet ms" , sans-serif;
+margin-left: auto ; margin-right: auto ;
+}
+fieldset
+{
+	padding:"20px";
+	margin:"10px";
+
+}
+legend
+{
+	color:#a0522d;
+font-weight:"bold";
+}
+label
+{
+	margin:"20px";
+	font-size:"90%";
+}
+input
+{
+	background-color :#A6BEDE;
+	font-family:"trebuchet ms" , sans-serif;
+	border:"1px";
+	font-weight:solid;
+	color:"black";
+}
+select , option
+{
+	background-color:#A6BEDE;
+	font-family:"trebuchet ms" , sans-serif;
+}
+textarea
+{
+	border:"1px";
+	font-weight:solid;
+	color:"black";
+	background-color:#A6BEDE;
+	font-family:"trebuchet ms" , sans-serif;
+}
+classe .c1
+{
+	margin:"50px";
+	background-color:#CCE7FF;
+	border:none;
+}
+body {
+    background-image: url("novocinema1.jpg");
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="../css/sign.css">
+<title> SIGN UP </title>
+<link rel="icon" href="../img/popcorn.ico">
+</head>
+<body>
+<form action="traitement.php" method="post">
+
+<legend><h2> SIGN UP </h2></legend>
+
+	<h3> Surname: </h3> <input type="text" name="prenom"> 
+	<h3> Name: </h3> <input type="text" name="nom"> 
+	<h3> Email: </h3> <input type="email" name="email"> 
+	<h3> Password: </h3> <input type="password" name="password"> 
+	<h3> You are: </h3> <select> 
+<option name="Spectateur"> 	Spectator </option>
+<option name="Producteur"> 	Producer </option>
+<option name="Réalisateur"> Director </option>
+</select>
+
+<h2> Genre: </h2> 
+<select>
+<option value="Romance"> Romance </option>
+<option value="Fantasie"> Fantasy </option>
+<option value="Sc-Fiction"> Sc-Fiction </option>
+<option value="Action"> Action </option>
+<option value="Drama"> Drama </option>
+<option value="Biography"> Biography </option>
+<option value="Comedy"> Comedy </option>
+<option value="Horror"> Horror </option>
+<option value="Adventure"> Adventure </option>
+<option value="History"> History </option>
+<option value="Thriller"> Thriller </option>
+<option value="Animation"> Animation </option>
+<option value="Family"> Family </option>
+</select>
+<br>
+<h3> Movie's Year? </h3> 
+
+<input type="range" name="years" min="0" max="4">
+<br>
+<table>
+<td> <tr> 80's </tr> <tr> 90's </tr> <tr> 00's </tr> <tr> 10's </tr> <tr> 18's </tr></td>
+</table>
+<h3> Any message or recommodation: </h3>  <br>
+<textarea width="100%" height="20%">  </textarea>
+<br>
+<br>
+<br>
+<button> <input type="submit" value="Envoyer" name="Envoyer"> </button><button> <input type="reset" value="Annuler" name="Annuler"></button>
+</form>
+
+  <center> <button><a href="../index.html"> <h3> Back to HomePage </h3> </button> </a> </center>
+</body>
+</html>
+</body>
+</html>
